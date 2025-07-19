@@ -10,7 +10,7 @@ def get_synced_lyrics(track, artist):
     if r.status_code == 200:
         data = r.json()
         if data.get("syncedLyrics"):
-            with open(f"D:/vazo-project/backend/static/LRC/{artist}_{track}.lrc","a") as file:
+            with open(f"D:/VazoBeta/backend/Lyrics/{artist}_{track}.lrc","a") as file:
                 file.write(data["syncedLyrics"])
                 file.close()
                 print("Done")
@@ -22,4 +22,5 @@ def get_synced_lyrics(track, artist):
     else:
         return "Erreur API."
 
-get_synced_lyrics("Cheerleader", "Omi")
+# get_synced_lyrics("Only-You", "Ric-Hassani")
+get_synced_lyrics()
