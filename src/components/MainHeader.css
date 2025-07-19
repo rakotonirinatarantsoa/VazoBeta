@@ -1,0 +1,105 @@
+/* Montserrat, Raleway, Fira Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0) 10%, white 100%),
+    linear-gradient(to right, #A9EAED, #c084fc );
+  background-blend-mode: normal;
+  padding: 0 64px;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  
+  height: 84px;
+}
+
+.header .left-section {
+  margin-left: 0;
+}
+
+.header .header-link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.header .logo-vazo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.header .logo-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.header .right-section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 440px;
+  /* padding-right: 32px; */
+}
+
+.header .retour-button {
+  width: 24px;
+}
+
+.header .continuer-button {
+  width: 24px;
+}
+
+.header .action-button {
+  display: flex;
+  align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: solid 1px #13A0DF;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.header .supprimer-icone {
+  width: 14px;
+  margin-right: 4px;
+}
+
+.header .supprimer-button {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.header .partager-icone {
+  width: 14px;
+  margin-right: 4px;
+}
+
+.header .partager-button {
+  padding-left: 18px;
+  padding-right: 18px;
+  /* margin-left: 8px; */
+}
+
+.header .setting-icon {
+  width: 32px;
+}
+
+.header .logo-ispm {
+  width: 64px;
+}

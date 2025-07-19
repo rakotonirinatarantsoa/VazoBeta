@@ -1,0 +1,229 @@
+/* Montserrat, Raleway, Fira Sans, Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Profil */
+/* .profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.profile-container .profile-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.profile-container .profile-name {
+  font-size: 12px;
+} */
+
+/* Le Menu */
+/* .composant-menu {
+  display: flex;
+  flex-direction: column;
+  width: 188px;
+}
+
+.composant {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.logo-composant {
+  height: 16px;
+  margin-right: 12px;
+}
+
+.nom-composant {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+} */
+
+/* CSS du contenu de l'acceuil */
+.accueil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 24vh;
+  margin-right: 0;
+  position: relative;
+}
+
+.importer-fichier {
+  display: flex;
+  text-decoration: none;
+  position: absolute;
+  top: 3vh;
+  right: 12vw;
+}
+
+.importer-fichier-button {
+  background-color: #8187DC;
+  font-style: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding: 10px 24px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.importer-fichier-button:hover {
+  background-color: #adb1e2;
+  box-shadow: 0 0 12px rgba(129, 135, 220, 0.7);
+  cursor: pointer;
+}
+
+.view-accueil {
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+}
+
+.welcoming {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcoming h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.welcoming h4 {
+  font-family: "Fira sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.videos-accueil {
+  display: flex;
+  flex-direction: column;
+}
+
+.example {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 1384px) {
+  .welcoming h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .welcoming h4 {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .videos-accueil {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+  }
+  
+  .example {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  
+  .video1,
+  .video3 {
+    width: 250px;
+    height: 32vh;
+  }
+}
+
+@media (min-width: 1192px) and (max-width: 1383px) {
+  .welcoming h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .welcoming h4 {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  
+  .videos-accueil {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  
+  .video1,
+  .video3 {
+    width: 260px;
+    height: 32vh;
+  }
+
+  .video2 {
+    height: 32vh;
+  }
+}
+
+@media (max-width: 1191px) {
+  .welcoming h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .welcoming h4 {
+    font-family: "Fira sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  
+  .videos-accueil {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .video1,
+  .video3 {
+    width: 200px;
+    height: 32vh;
+  }
+
+  .video2 {
+    height: 32vh;
+  }
+}
