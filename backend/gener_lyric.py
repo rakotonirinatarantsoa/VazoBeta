@@ -22,5 +22,5 @@ def get_synced_lyrics(track, artist):
     else:
         return "Erreur API."
 
-# get_synced_lyrics("Only-You", "Ric-Hassani")
-get_synced_lyrics()
+get_synced_lyrics("Only-You", "Ric-Hassani")
+# get_synced_lyrics()

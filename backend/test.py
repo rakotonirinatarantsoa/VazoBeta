@@ -151,5 +151,5 @@ def with_tempstamp(out_pth,name,audio_path,image_path,lrc_path):
     ]
     subprocess.run(command)
 
-# with_tempstamp("D:/VazoBeta/backend/mp4 final","Ric Hassanali","D:/VazoBeta/backend/Songs/Ric-Hassani-Only-You.mp3", "D:/VazoBeta/backend/Background/pexels-moose.jpg", "D:/VazoBeta/backend/Lyrics/Ric-Hassani_Only-You.lrc")
-with_tempstamp()
+with_tempstamp("D:/VazoBeta/backend/mp4 final","Ric Hassanali","D:/VazoBeta/backend/Songs/Ric-Hassani-Only-You.mp3", "D:/VazoBeta/backend/Background/pexels-moose.jpg", "D:/VazoBeta/backend/Lyrics/Ric-Hassani_Only-You.lrc")
+# with_tempstamp()
