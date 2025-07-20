@@ -1,0 +1,89 @@
+/* Montserrat, Raleway, Fira Sans, Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.homepage-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(
+    136.16deg,
+    #A9EAED 20%,
+    #CCA6FF 70%
+  ); */
+  background-image: url("/images/watercolor.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 128px; */
+  transform: translateY(10%);
+}
+
+.introducing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 32px; */
+  min-width: 900px;
+}
+
+.app-info {
+  width: 400px;
+}
+
+.welcome {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  margin-bottom: 0;
+  color: rgb(92, 88, 88);
+}
+
+.welcome .vazo-span {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.about-app {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  width: 400px;
+  margin-top: 0;
+}
+
+.welcoming-image {
+  width: 350px;
+}
+
+.commencer-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: #8187dc;
+  padding: 12px 48px;
+  border: none;
+  border-radius: 24px;
+  margin-top: 64px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.commencer-button:hover {
+  background-color: #adb1e2;
+  box-shadow: 0 0 12px rgba(129, 135, 220, 0.7);
+  cursor: pointer;
+}
+
+@media (max-width: 919.9px) {
+  .introducing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+  }
+}
